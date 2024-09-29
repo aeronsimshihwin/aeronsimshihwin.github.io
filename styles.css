@@ -1,8 +1,9 @@
+/* Basic Styles */
 body {
     font-family: 'Luckiest Guy', sans-serif;
-    background-image: url('underwater-background.jpg');
+    background-image: url('underwater-background.jpg'); /* Add your underwater background image */
     background-size: cover;
-    color: #003366;
+    color: #003366; /* Dark blue color for text */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
 
 header {
     padding: 50px;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.8); /* Light translucent background */
 }
 
 header h1 {
@@ -67,4 +68,23 @@ footer {
 footer p {
     color: #000;
     font-size: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section#rsvp {
+        padding: 30px;
+    }
+
+    form label, form input, form select {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
 }
