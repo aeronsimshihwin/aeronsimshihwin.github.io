@@ -53,9 +53,17 @@
         const formData = new FormData(event.target);
         const data = new URLSearchParams(formData);
         
-        fetch('https://script.google.com/macros/s/AKfycbzMzaZDzNe84gxk_kmzy3-F1QTTBdsp9CsQzJ2EtipHcrzSK2maQcMYgpdakTWB0Ko4/exec', {  // Ensure this is the correct URL
+        fetch('https://script.google.com/macros/s/AKfycbzMzaZDzNe84gxk_kmzy3-F1QTTBdsp9CsQzJ2EtipHcrzSK2maQcMYgpdakTWB0Ko4/exec', {
             method: 'POST',
-            body: data
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                attending: attending,
+                plus_one: plus_one
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
         })
         .then(response => {
             if (response.ok) {
