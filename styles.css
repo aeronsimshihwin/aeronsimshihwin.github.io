@@ -29,6 +29,21 @@ form {
     flex-direction: column;
 }
 
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section#rsvp {
+        padding: 30px;
+    }
+
+    form label, form input, form select {
+        font-size: 1rem;
+    }
+}
+
 label, input, select {
     margin: 10px 0;
     padding: 10px;
