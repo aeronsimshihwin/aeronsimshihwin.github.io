@@ -1,7 +1,7 @@
 /* Basic Styles */
 body {
     font-family: 'Luckiest Guy', sans-serif;
-    background-image: url('underwater-background.jpg'); /* Add your underwater background image */
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c36a5cf4-69a3-4f13-a9b6-12a390b58f18/dflr0n4-e5fbe063-9313-4f76-b0e9-3adac471c0be.jpg/v1/fill/w_1032,h_774,q_70,strp/spongebob_background__by_kylecollazo_dflr0n4-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYyMCIsInBhdGgiOiJcL2ZcL2MzNmE1Y2Y0LTY5YTMtNGYxMy1hOWI2LTEyYTM5MGI1OGYxOFwvZGZscjBuNC1lNWZiZTA2My05MzEzLTRmNzYtYjBlOS0zYWRhYzQ3MWMwYmUuanBnIiwid2lkdGgiOiI8PTIxNjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.MOFmCqv55CF-YO2vv9Qw54y-ej_fbKJvIoSJq3tgeYc'); /* Add your underwater background image */
     background-size: cover;
     color: #003366; /* Dark blue color for text */
     text-align: center;
