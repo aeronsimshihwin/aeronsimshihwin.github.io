@@ -55,6 +55,7 @@
         
         fetch('https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbz2luzGabi3IGemq80VN_OXxRtTtNqlR5Sq6ma8EAKw5Dq30dxSXchvULfauBA0Qblk/exec/exec', {
             method: 'POST',
+            mode: 'no-cors',
             body: JSON.stringify({
                 name: name,
                 email: email,
